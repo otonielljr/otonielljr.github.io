@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Vídeos - Seu Nome</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Arquivo CSS para estilização -->
+</head>
+<body>
+
+<header>
+    <h1>Seu Nome - Videomaker</h1>
+    <video src="video-de-apresentacao.mp4" autoplay muted loop controls></video>
+</header>
+
+<section id="melhores-trabalhos">
+    <h2>Melhores Trabalhos</h2>
+    <!-- Vitrines com seus melhores trabalhos (pode usar imagens ou vídeos pequenos) -->
+</section>
+
+<section id="tipos-de-videos">
+    <h2>Tipos de Vídeos</h2>
+    <ul>
+        <li><a href="#culinaria">Culinária</a></li>
+        <li><a href="#medicina">Medicina</a></li>
+        <li><a href="#aftermovie">Aftermovie</a></li>
+        <li><a href="#videoclipe">Videoclipe</a></li>
+    </ul>
+</section>
+
+<section id="trabalhos-de-destaque">
+    <h2>Trabalhos de Destaque</h2>
+    <!-- Destaque seus trabalhos de conhecimento público -->
+</section>
+
+<footer>
+    <a href="https://api.whatsapp.com/send?phone=seu_numero_de_telefone" target="_blank" class="whatsapp-button">Contato via WhatsApp</a>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,76 @@
+/* Resetando estilos padrão */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Defina sua fonte preferida */
+    background-color: #000; /* Cor de fundo preta */
+    color: #fff; /* Cor do texto branca */
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ffa500; /* Cor laranja para o título */
+}
+
+video {
+    width: 100%;
+    max-width: 800px; /* Ajuste o tamanho conforme necessário */
+    margin: 20px auto;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #ffa500; /* Cor laranja para os subtítulos */
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+ul li a {
+    color: #fff; /* Cor do texto branco para os links */
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+footer {
+    background-color: #222; /* Cor de fundo preta para o rodapé */
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.whatsapp-button {
+    background-color: #ffa500; /* Cor laranja para o botão de WhatsApp */
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button:hover {
+    background-color: #ff7f00; /* Cor laranja mais escura no hover */
+}
