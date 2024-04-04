@@ -1,76 +1,80 @@
 /* Resetando estilos padrão */
-body, h1, h2, h3, p, ul, li {
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, sans-serif; /* Defina sua fonte preferida */
-    background-color: #000; /* Cor de fundo preta */
-    color: #fff; /* Cor do texto branca */
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 header {
-    text-align: center;
-    padding: 50px 0;
+    background-color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
-    font-size: 2.5rem;
-    color: #ffa500; /* Cor laranja para o título */
+    font-size: 1.5rem;
 }
 
-video {
-    width: 100%;
-    max-width: 800px; /* Ajuste o tamanho conforme necessário */
-    margin: 20px auto;
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #0077ff;
+}
+
+main {
+    padding: 50px 0;
 }
 
 section {
-    padding: 50px 0;
-    text-align: center;
+    padding-bottom: 50px;
 }
 
-h2 {
-    font-size: 2rem;
-    margin-bottom: 30px;
-    color: #ffa500; /* Cor laranja para os subtítulos */
-}
-
-ul {
-    list-style: none;
-}
-
-ul li {
-    display: inline-block;
-    margin: 0 10px;
-}
-
-ul li a {
-    color: #fff; /* Cor do texto branco para os links */
-    text-decoration: none;
-    font-size: 1.2rem;
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
 }
 
 footer {
-    background-color: #222; /* Cor de fundo preta para o rodapé */
+    background-color: #fff;
     padding: 20px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     text-align: center;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.whatsapp-button {
-    background-color: #ffa500; /* Cor laranja para o botão de WhatsApp */
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background-color 0.3s ease;
-}
-
-.whatsapp-button:hover {
-    background-color: #ff7f00; /* Cor laranja mais escura no hover */
+footer p {
+    font-size: 0.9rem;
+    color: #666;
 }
